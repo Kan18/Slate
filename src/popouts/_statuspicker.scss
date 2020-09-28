@@ -106,6 +106,7 @@
           }
           .customEmojiPlaceholder-37iZ_j {
             background: var(--text-normal);
+            -webkit-mask: url($icon_add) center/cover no-repeat;
             mask: url($icon_add) center/cover no-repeat;
             margin: 0;
           }

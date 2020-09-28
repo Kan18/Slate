@@ -256,6 +256,7 @@
         width:90%;
         height:200px;
         background:var(--text-muted);
+        -webkit-mask: url($illustration_3) center/contain no-repeat;
         mask: url($illustration_3) center/contain no-repeat;
         margin-bottom:var(--spacing);
       }

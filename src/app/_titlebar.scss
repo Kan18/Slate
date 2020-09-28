@@ -22,6 +22,7 @@
       width: var(--titlebar-height);
       height: var(--titlebar-height);
       position: relative;
+      -webkit-mask: url($icon_discord) center/18px no-repeat;
       mask: url($icon_discord) center/18px no-repeat;
       top: 0;
       background: var(--toolbar-text-muted);
@@ -109,6 +110,7 @@
     height: var(--titlebar-height);
     position: relative;
     display:block;
+    -webkit-mask: url($icon_discord) center/18px no-repeat;
     mask: url($icon_discord) center/18px no-repeat;
     background: var(--text-muted);
   }
