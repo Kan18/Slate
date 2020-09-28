@@ -19,7 +19,7 @@
     border-right: 1px solid var(--toolbar-border);
     background-color: var(--toolbar-background);
     height: var(--toolbar-height);
-    padding: 10px 10px 10px 75px;
+    padding: var(--spacing) var(--spacing) var(--spacing) 75px; // Don't interfere with close/minimize/maximize buttons on macOS
     transition: none;
     position: absolute;
     left: calc(var(--noasw-channel-header) * -1);
