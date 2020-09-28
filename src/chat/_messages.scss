@@ -7,13 +7,13 @@
     background: transparent !important;
     min-height: unset;
     &.groupStart-23k01U {
-      border-top: 1px solid var(--base-border);
+      //border-top: 1px solid var(--base-border);
       min-height: auto;
       &.cozy-3raOZG {
         padding-top: var(--spacing);
       }
       &.compact-T3H92H {
-        margin-top: 0;
+        margin-top: -7px;
       }
     } 
     .username-1A8OIy {
@@ -21,7 +21,7 @@
       color: var(--text-normal);
       font-weight:var(--font-weight-semibold);
       line-height:normal;
-      margin: 0;
+      margin: 1px;
     }
     .markup-2BOw-j {
       font-size: var(--font-size);
@@ -51,7 +51,7 @@
     }
     & + .message-2qnXI6:not(.groupStart-23k01U) {
       margin-top: calc(var(--spacing) / -1);
-      padding-top:0;
+      padding-top: 2px;
     }
     &:last-child {
       padding-bottom: calc(var(--spacing) + 5px);

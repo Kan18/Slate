@@ -19,7 +19,7 @@
     border-right: 1px solid var(--toolbar-border);
     background-color: var(--toolbar-background);
     height: var(--toolbar-height);
-    padding: var(--spacing);
+    padding: 10px 10px 10px 75px;
     transition: none;
     position: absolute;
     left: calc(var(--noasw-channel-header) * -1);
